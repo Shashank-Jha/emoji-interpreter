@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #2f6ed3;
+}
+
+input {
+  width: 80%;
+  height: 10vh;
+  outline: none;
+
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h3 {
+  font-weight: 300;
+  max-width: 100px;
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+
+  background: rgba(13, 23, 35, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+ul {
+  padding: 4px;
+
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0.3rem;
+  text-align: center;
+  list-style: none;
+
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
