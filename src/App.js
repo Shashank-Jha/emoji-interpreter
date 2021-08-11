@@ -10,7 +10,22 @@ const emojis = {
   "😅": "Grinning Face with Sweat",
   "🤣": "Rolling on the Floor Laughing",
   "😂": "Face with Tears of Joy",
-  "🤩": "Star-Struck"
+  "🤩": "Star-Struck",
+  "🍕": "Pizza Slice",
+  "🍔": "borgir 🤣",
+  "🍟": "French Fries",
+  "🌭": "Hot Dog",
+  "🍿": "Popcorn",
+  "🧇": "Waffle",
+  "🥗": "green salad",
+  "🥙": "stuffed flatBread",
+  "🥪": "sandwich",
+  "🌮": "taco",
+  "🌯": "borito",
+  "🐱‍👤": "ninja cat",
+  "🐱‍🏍": "stunt cat",
+  "🐱‍💻": "hacker cat",
+  "🐱‍🚀": "astro cat"
 };
 
 export default function App() {
@@ -51,6 +66,16 @@ export default function App() {
           </ul>
         );
       })}
+      <p
+        style={{
+          display: "block",
+          margin: "auto",
+          padding: "3rem",
+          width: "60%"
+        }}
+      >
+        " This is a simple web app which tells you the meaning of the emojis "
+      </p>
     </div>
   );
 }
